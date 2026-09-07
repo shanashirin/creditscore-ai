@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Credit Risk Predictor</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>AI Credit Risk Predictor</h1>
+
+<div class="card">
+
+<input id="age" type="number" placeholder="Age">
+
+<input id="amount" type="number" placeholder="Credit Amount">
+
+<input id="duration" type="number" placeholder="Duration">
+
+<button onclick="predictRisk()">
+Predict Risk
+</button>
+
+</div>
+
+<div id="result"></div>
+
+</div>
+
+<script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+</html>

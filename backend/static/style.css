@@ -1,0 +1,44 @@
+body{
+    background:#0f172a;
+    font-family:Arial;
+    color:white;
+}
+
+.container{
+    width:70%;
+    margin:auto;
+    text-align:center;
+    margin-top:50px;
+}
+
+.card{
+    background:#1e293b;
+    padding:30px;
+    border-radius:20px;
+}
+
+input{
+    width:80%;
+    padding:15px;
+    margin:10px;
+    border:none;
+    border-radius:10px;
+}
+
+button{
+    padding:15px 30px;
+    background:#3b82f6;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+#result{
+    margin-top:30px;
+    font-size:25px;
+}
